@@ -35,7 +35,7 @@ export interface TodoItemProps {
   id: string;
   label: string;
   checked?: boolean;
-  onChange?: (checked: boolean) => void;
+  onChange: (checked: boolean) => void;
 }
 
 export const TodoItem: FC<TodoItemProps> = ({
